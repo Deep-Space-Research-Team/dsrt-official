@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Deep Space Research Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="stars-canvas"></canvas>
+
+    <nav class="fade-in">
+        <div class="logo"><a href="index.html">DSRT</a></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="page-content fade-in">
+        <div class="project-card scroll-reveal" style="background: transparent; border: none; box-shadow: none;">
+            <p class="about-text" style="margin-bottom: 2.5rem; text-align: center;">
+                Whether you're looking to collaborate on API development, contribute to Project Aegis, or inquire about our research, transmit your message below.
+            </p>
+            
+            <form class="contact-form" action="https://formspree.io/f/xppqakvl" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="6" placeholder="Enter your message here..." required></textarea>
+                
+                <button type="submit" class="btn full-width-btn">Submit Message</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

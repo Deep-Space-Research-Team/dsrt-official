@@ -1,0 +1,30 @@
+{
+  "organization": "Deep Space Research Team",
+  "github_url": "https://github.com/Deep-Space-Research-Team",
+  "projects": [
+    {
+      "id": "project-aegis",
+      "name": "Project Aegis",
+      "description": "A web-based system dedicated to the tracking, classification, and analysis of Near-Earth Objects (NEOs).",
+      "url": "https://project-aegis-neos.vercel.app/",
+      "repository": "https://github.com/Deep-Space-Research-Team/project-aegis",
+      "status": "Active",
+      "technologies": [
+        "Web",
+        "API Integration"
+      ]
+    },
+    {
+      "id": "deep-space-api",
+      "name": "Deep Space API",
+      "description": "A centralized API service for delivering deep space research data, telemetry, and celestial mechanics calculations.",
+      "url": "https://deep-space-api-cuhq.onrender.com/",
+      "repository": "https://github.com/Deep-Space-Research-Team/deep-space-api",
+      "status": "Active",
+      "technologies": [
+        "API",
+        "Backend"
+      ]
+    }
+  ]
+}
