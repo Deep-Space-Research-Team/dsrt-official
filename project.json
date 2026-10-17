@@ -25,6 +25,18 @@
         "API",
         "Backend"
       ]
+    },
+    {
+      "id": "html6",
+      "name": "HTML-6-Prototype",
+      "description": "HTML6 — Exploring a Python-First Web.",
+      "url": "https://deep-space-research-team.github.io/html6/",
+      "repository": "https://github.com/Deep-Space-Research-Team/html6",
+      "learn": "https://deep-space-research-team.github.io/html6/learn/",
+      "status": "Active",
+      "technologies": [
+        "Prototype"
+      ]
     }
   ]
 }
