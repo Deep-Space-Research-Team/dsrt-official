@@ -1,34 +1,30 @@
-# DSRT Official — HTML6 Migration
+# Deep Space Research Team (DSRT)
 
-Migrated to HTML6 Prototype v0.2.0.
+> Exploring the cosmos through advanced web systems, telemetry APIs, and cutting-edge celestial mechanics.
 
-## Included
-- Home, About, Projects, and Contact pages.
-- Python (`app.psc`) loads `data/project.json` and creates project cards.
-- Original space-themed visual direction retained in CSS.
-- Canvas starfield and scroll reveal effects remain JavaScript browser effects.
-- Original Formspree contact endpoint preserved.
+Welcome to the official repository of the **Deep Space Research Team**. We build open-source infrastructure to process, analyze, and distribute data from deep space nodes, supporting researchers, engineers, and space enthusiasts worldwide.
 
-## HTML6 runtime
-The pages load the official runtime from jsDelivr:
-`https://cdn.jsdelivr.net/gh/Deep-Space-Research-Team/html6@prototype-v0.2.0/html6.js`
+🌐 **Website:** [dsrt-official.netlify.app](https://dsrt-official.netlify.app/)
+🐙 **GitHub:** [@Deep-Space-Research-Team](https://github.com/Deep-Space-Research-Team)
 
-An internet connection is required for the HTML6 runtime and Pyodide CDN.
+---
 
-## Run locally
-Do not open with `file://`. Start a local server:
-```bash
-python -m http.server 8000
-```
-Open http://localhost:8000
+## 🚀 Mission Parameters
 
-## Structure
-- `*.html` — page structure
-- `style.css` — styling
-- `script.js` — canvas animation and scroll observer
-- `app.psc` — Python application logic
-- `data/project.json` — project data
-- `assets/favicon.svg` — favicon
+Our core focus areas include:
 
-## Important
-HTML6 is an experimental Python-first runtime, not an official HTML standard. This ZIP was assembled from the source repository, but has not been browser-tested in this environment. Test all pages, project loading, contact form submission, and responsive layout before deploying.
+* **🛰️ Telemetry Tracking:** Processing real-time data from deep space nodes to monitor Near-Earth Objects.
+* **🌌 Open Source API:** Delivering robust endpoints for celestial mechanics calculations to researchers worldwide.
+* **🔭 Data Classification:** Automated orbital trajectory analysis and threat assessment architecture.
+
+## 📁 Navigation
+
+* [Projects](https://dsrt-official.netlify.app/project) — Overview of our active systems and APIs.
+* [About Us](https://dsrt-official.netlify.app/about) — Learn more about the team behind the code.
+* [Contact](https://dsrt-official.netlify.app/contact) — Reach out for collaborations or system inquiries.
+
+---
+
+## 🛠️ Getting Started
+
+To get started with our telemetry tools or celestial mechanics APIs, navigate to the specific project repositories within our GitHub organization.
